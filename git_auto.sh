@@ -7,4 +7,4 @@ git add .
 git commit -m "Automated commit"
 
 # Push changes to the remote repository (assuming the remote is named 'origin' and the branch is 'main')
-git push origin main
+git push origin master
