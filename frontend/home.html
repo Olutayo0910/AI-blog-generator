@@ -16,13 +16,6 @@
         }
         }
 
-        .container {
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  height: 100vh; /* Set container height to full viewport height */
-}
-
         /* Apply animation to the loading circle */
         #loading-circle {
         width: 50px; /* Adjust size as needed */
@@ -65,7 +58,7 @@
             </div>
         </div>
         <!--Rolling circle-->
-        <div id="loading-circle" class="load container"></div>
+        <div id="loading-circle" style="display: none;" class="load mx-auto mt-2"></div>
         <!--Generated blog article-->
             <section class="mt-10 flex-grow">
                 <h2 class="text-xl mb-4 text-center font-semibold">Generated Article</h2>
