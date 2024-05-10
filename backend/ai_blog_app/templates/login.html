@@ -11,8 +11,8 @@
     <nav class="bg-green-500 p-4 text-white flex justify-between">
         <h1 class="ml-4 text-3xl font-bold">Blog Generator</h1>
         <div class="flex space-x-4 mr-4">
-            <p class="text-white hover:underline">Login</p>
-            <p class="text-white hover:underline">Sign Up</p>
+            <a href="{% url 'login' %}" class="hover:underline">login</a>
+            <a href="{% url 'signup' %}" class="hover:underline">Signup</a>
         </div>
     </nav>
 
